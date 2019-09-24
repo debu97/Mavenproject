@@ -15,5 +15,8 @@ public class Calculator {
 	{
 		return x-y;
 	}
-	
+	public int addmult(int x, int y)
+	{
+		return x*y + 10;
+	}
 }

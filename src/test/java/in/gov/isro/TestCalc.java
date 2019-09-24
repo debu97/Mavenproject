@@ -24,4 +24,10 @@ public class TestCalc {
 		int result = calc.subtract(10,5);
 		assertEquals(5,result);
 	}
+	@Test
+	public void testaddmult() {
+		Calculator calc = new Calculator();
+		int result = calc.addmult(10,5);
+		assertEquals(60,result);
+	}
 }
