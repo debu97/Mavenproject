@@ -13,6 +13,7 @@ public class Calculator {
 	
 	public int subtract(int x, int y)
 	{
+		int z = 0;
 		return x-y;
 	}
 	public int addmult(int x, int y)
